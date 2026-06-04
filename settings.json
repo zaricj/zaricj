@@ -1,6 +1,5 @@
 {
   "editor.suggestSelection": "first",
-  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "editor.cursorBlinking": "smooth",
   "workbench.iconTheme": "material-icon-theme",
   "editor.largeFileOptimizations": false,
@@ -11,12 +10,12 @@
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
   "[css]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.defaultFormatter": "vscode.css-language-features",
   },
   "update.showReleaseNotes": false,
   "[python]": {
     "editor.formatOnType": true,
-    "editor.defaultFormatter": "ms-python.autopep8",
+    "editor.defaultFormatter": "charliermarsh.ruff",
     "diffEditor.ignoreTrimWhitespace": false,
   },
   "workbench.startupEditor": "none",
@@ -31,10 +30,9 @@
   ],
   "git.confirmSync": false,
   "python.analysis.autoFormatStrings": true,
-  "git.openRepositoryInParentFolders": "never",
   "workbench.settings.applyToAllProfiles": [],
   "editor.fontFamily": "JetBrains Mono",
-  "editor.fontLigatures": false,
+  "editor.fontLigatures": true,
   "editor.smoothScrolling": false,
   "editor.fontWeight": "500",
   "editor.mouseWheelZoom": true,
@@ -67,7 +65,18 @@
           "name": "Function parameter",
           "scope": "variable.parameter",
           "settings": {
-            "foreground": "#6c7fe0",
+            "foreground": "#8b9cef",
+          },
+        },
+      ],
+    },
+    "[JetBrains Dark (RustRover)]": {
+      "textMateRules": [
+        {
+          "name": "Function parameter",
+          "scope": "variable.parameter",
+          "settings": {
+            "foreground": "#7f8ddc",
           },
         },
       ],
@@ -84,7 +93,14 @@
     "*.css": "css",
     "css": "css",
   },
-  "cSpell.userWords": ["matcha", "Pixmap", "qdarktheme", "unternehmen"],
+  "cSpell.userWords": [
+    "matcha",
+    "Pixmap",
+    "qdarktheme",
+    "rprint",
+    "tcss",
+    "unternehmen",
+  ],
   "github.copilot.nextEditSuggestions.enabled": true,
   "liveServer.settings.donotShowInfoMsg": true,
   "github.copilot.enable": {
@@ -93,9 +109,18 @@
     "markdown": false,
     "scminput": false,
     "css": true,
-    "python": true,
+    "python": false,
   },
-  "workbench.colorTheme": "One Dark Pro",
   "window.zoomLevel": 0.4,
   "indentRainbow.lightIndicatorStyleLineWidth": 2,
+  "diffEditor.codeLens": true,
+  "chat.viewSessions.orientation": "stacked",
+  "workbench.colorTheme": "One Dark Pro",
+  "python.languageServer": "Pylance",
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
 }
