@@ -1,0 +1,117 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+  "soft_wrap": "none",
+  "indent_guides": {
+    "background_coloring": "disabled",
+    "coloring": "indent_aware",
+    "enabled": true,
+  },
+  "show_whitespaces": "selection",
+  "minimap": {
+    "show": "always",
+  },
+  "gutter": {
+    "line_numbers": true,
+    "runnables": true,
+  },
+  "status_bar": {
+    "show_active_file": false,
+  },
+  "disable_ai": true,
+  "proxy": "",
+  "colorize_brackets": false,
+  "use_system_path_prompts": true,
+  "buffer_line_height": "standard",
+  "tabs": {
+    "git_status": false,
+    "file_icons": true,
+  },
+  "title_bar": {
+    "show_user_menu": true,
+    "show_sign_in": false,
+    "show_project_items": true,
+    "show_branch_name": true,
+    "show_menus": true,
+    "show_branch_status_icon": false,
+  },
+  "agent": {
+    "dock": "right",
+    "favorite_models": [],
+    "model_parameters": [],
+  },
+  "git_panel": {
+    "dock": "right",
+  },
+  "project_panel": {
+    "git_status_indicator": true,
+    "diagnostic_badges": true,
+    "indent_size": 22.0,
+    "default_width": 300.0,
+    "dock": "left",
+  },
+  "ui_font_weight": 400.0,
+  "ui_font_family": ".ZedSans",
+  "buffer_font_weight": 500.0,
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false,
+  },
+  "icon_theme": {
+    "mode": "dark",
+    "light": "Material Icon Theme",
+    "dark": "Material Icon Theme",
+  },
+  "session": {
+    "trust_all_worktrees": true,
+  },
+  "terminal": {
+    "font_size": 14.0,
+    "font_family": "JetBrainsMonoNL Nerd Font",
+  },
+  "mouse_wheel_zoom": true,
+  "cursor_blink": true,
+  "autosave": {
+    "after_delay": {
+      "milliseconds": 1000,
+    },
+  },
+  "buffer_font_family": "JetBrains Mono",
+  "file_types": {
+    "html": ["*.html"],
+    "css": ["*.css", "css"],
+  },
+  "linked_edits": true,
+  "base_keymap": "VSCode",
+  "ui_font_size": 16,
+  "buffer_font_size": 14.0,
+  "theme": {
+    "mode": "dark",
+    "light": "One Light",
+    "dark": "One Dark Pro Classic",
+  },
+
+  "semantic_tokens": "combined",
+  "global_lsp_settings": {
+    "semantic_token_rules": [
+      {
+        "token_type": "function",
+        "font_weight": "bold",
+      },
+      {
+        "token_type": "method",
+        "font_weight": "bold",
+      },
+      {
+        "token_type": "parameter",
+        "foreground_color": "#7f8ddc",
+      },
+    ],
+  },
+}
